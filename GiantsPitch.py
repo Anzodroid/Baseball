@@ -4,16 +4,17 @@ import requests
 import pandas
 import numpy as np
 import github
-import git
 #import gitpython
+import git
 # The OS module in python provides functions for interacting with the operating system. .
 import os
 
-CSVfile = "C:/Users/AnzoGiantsPitchtest.csv"
+
 
 # Get data
 # Source: http://npb.jp/bis/eng/2019/stats/idb1_g.html
 Year = "2019"
+CSVfile = "GiantsPitch"+Year+".csv"
 r = requests.get("http://npb.jp/bis/eng/"+Year+"/stats/idp1_g.html")
 
 # Clean data
@@ -77,7 +78,7 @@ df.to_csv(path_or_buf=CSVfile)
 
 from git import Repo
 
-repo_dir = 'Baseball'
+repo_dir = 'C:/Users/Anzo'
 repo = Repo(repo_dir)
 file_list = CSVfile
 
@@ -89,7 +90,7 @@ origin.push()
 
 
 
-#repo_dir = os.path.join('git@github.com:Anzodroid/Baseball.git', 'my-new-repo')
+#repo_dir = os.path.join('C:/users/anzo/AnzoGiantsPitchtest.csv')
 #file_name = os.path.join(repo_dir, 'new-file')
 
 #r = git.Repo.init(repo_dir)
@@ -99,9 +100,7 @@ origin.push()
 #r.index.commit("initial commit")
 
 
-#git add CSVfile
-#git commit CSVfile - m
-#git push origin master
 
 
-print("CSV Creation Success")
+
+print("CSV Creation and Pushed to Github")
