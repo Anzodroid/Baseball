@@ -1,75 +1,75 @@
-,Year,Last,First,No.,Byear,Bmonth,Bday,Height (cm),Weight (kg),Throws,Bats,Comments
-0,2020,Hara,Tatsunori,83, 1958,Jul,22,,,,,
-1,2020,PITCHERS,,No.,,Born,,Ht.(cm),Wt.(kg),T,B,Note
-2,2020,De La Rosa,Rubby,12, 1989,Mar,4,183,95,R,R,
-3,2020,Diplan,Nattino,96, 1993,Dec,30,190,81,R,R,Registered(developmental player ->) (Mar. 31).
-4,2020,Fujioka,Takahiro,47, 1989,Jul,17,182,93,L,L,
-5,2020,Furukawa,Yuri,40, 1995,Sep,8,178,86,R,R,
-6,2020,Hatake,Seishu,31, 1994,May,31,186,82,R,L,
-7,2020,Horioka,Hayato,95, 1998,Sep,11,183,87,R,R,
-8,2020,Hotta,Kenshin,32, 2001,May,21,185,80,R,R,
-9,2020,Ikeda,Shun,68, 1992,Nov,29,174,78,L,L,Traded to Rakuten (Jun. 29).
-10,2020,Imamura,Nobutaka,45, 1994,Mar,15,180,88,L,L,
-11,2020,Inoue,Haruto,91, 2001,May,13,175,72,L,L,
-12,2020,Iwakuma,Hisashi,21, 1981,Apr,12,190,95,R,R,
-13,2020,Kagiya,Yohei,30, 1990,Sep,23,178,86,R,R,
-14,2020,Kuwahara,Takuya,46, 1996,Mar,26,178,85,R,R,
-15,2020,Mercedes,Cristopher Crisostomo,42, 1994,Mar,8,188,82,L,S,
-16,2020,Miyaguni,Ryosuke,58, 1992,Apr,17,186,92,R,R,
-17,2020,Nakagawa,Kota,41, 1994,Feb,24,183,86,L,L,
-18,2020,Naoe,Daisuke,54, 2000,Jun,20,184,77,R,R,
-19,2020,Nogami,Ryoma,23, 1987,Jun,15,177,77,R,R,
-20,2020,Numata,Shohei,92, 2000,Jun,24,175,65,R,R,Registered(developmental player ->) (Jun. 1).
-21,2020,Ohe,Ryusei,64, 1999,Jan,15,173,78,L,L,
-22,2020,Ohta,Ryu,33, 1998,Nov,15,190,94,R,R,
-23,2020,Ohtake,Kan,17, 1983,May,21,184,96,R,R,
-24,2020,Sakurai,Toshiki,35, 1993,Oct,21,182,89,R,R,
-25,2020,Sanchez,Angel,20, 1989,Nov,28,185,88,R,S,
-26,2020,Sawamura,Hirokazu,15, 1988,Apr,3,184,102,R,R,
-27,2020,Sugano,Tomoyuki,18, 1989,Oct,11,186,92,R,R,
-28,2020,Taguchi,Kazuto,28, 1995,Sep,14,171,83,L,L,
-29,2020,Tahara,Seiji,63, 1989,Sep,2,181,85,R,L,
-30,2020,Takagi,Kyosuke,57, 1989,Sep,5,183,90,L,L,
-31,2020,Takahashi,Yuki,26, 1997,Feb,1,178,82,L,L,
-32,2020,Takata,Hosei,53, 1998,Jul,4,178,83,R,R,
-33,2020,Togo,Shosei,13, 2000,Apr,4,186,75,R,R,
-34,2020,Tone,Chiaki,50, 1992,Oct,17,174,100,L,L,
-35,2020,Vieira,Thyago,49, 1993,Jan,7,193,113,R,R,
-36,2020,Yokogawa,Kai,62, 2000,Aug,30,190,95,L,L,
-37,2020,CATCHERS,,No.,,Born,,Ht.(cm),Wt.(kg),T,B,Note
-38,2020,Kishida,Yukinori,38, 1996,Oct,10,176,80,R,R,
-39,2020,Kobayashi,Seiji,22, 1989,Jun,7,178,86,R,R,
-40,2020,Ohshiro,Takumi,24, 1993,Feb,11,187,90,R,L,
-41,2020,Sumitani,Ginjiro,27, 1987,Jul,19,181,98,R,R,
-42,2020,Tanaka,Takaya,69, 1992,Aug,27,178,85,R,L,
-43,2020,Yamase,Shinnosuke,67, 2001,May,4,177,82,R,R,
-44,2020,INFIELDERS,,No.,,Born,,Ht.(cm),Wt.(kg),T,B,Note
-45,2020,Kikuta,Hirokazu,60, 2001,Jul,23,182,94,R,R,
-46,2020,Kitamura,Takumi,52, 1995,Aug,29,181,85,R,R,
-47,2020,Masuda,Daiki,0, 1993,Jul,29,172,68,R,R,
-48,2020,Masuda,Riku,61, 2000,Jun,17,178,85,R,R,
-49,2020,Matsui,Yoshiya,65, 2000,Jun,18,191,90,R,L,
-50,2020,Nakajima,Hiroyuki,5, 1982,Jul,31,180,90,R,R,
-51,2020,Okamoto,Kazuma,25, 1996,Jun,30,185,96,R,R,
-52,2020,Sakamoto,Hayato,6, 1988,Dec,14,186,85,R,R,
-53,2020,Tanaka,Shunta,51, 1993,Aug,18,178,82,R,L,
-54,2020,Wakabayashi,Akihiro,37, 1993,Aug,26,180,77,R,S,
-55,2020,Wheeler,Zelous,48, 1987,Jan,16,178,100,R,R,Traded by Rakuten (Jun. 29).
-56,2020,Yamamoto,Yasuhiro,56, 1993,Oct,10,176,76,R,R,
-57,2020,Yoshikawa,Daiki,00, 1992,Aug,21,175,78,R,R,
-58,2020,Yoshikawa,Naoki,29, 1995,Feb,8,177,78,R,L,
-59,2020,Yuasa,Dai,93, 2000,Jan,24,172,70,R,R,
-60,2020,OUTFIELDERS,,No.,,Born,,Ht.(cm),Wt.(kg),T,B,Note
-61,2020,Ishikawa,Shingo,36, 1993,Apr,27,178,80,R,R,
-62,2020,Itoh,Kaito,97, 2001,Apr,2,187,88,L,L,
-63,2020,Kamei,Yoshiyuki,9, 1982,Jul,28,178,82,R,L,
-64,2020,Katoh,Shuhei,94, 1999,Mar,28,178,79,R,L,
-65,2020,Maru,Yoshihiro,8, 1989,Apr,11,177,94,R,L,
-66,2020,Matsubara,Seiya,59, 1995,Jan,26,173,72,R,L,
-67,2020,Mota,Israel,44, 1996,Jan,3,188,98,R,R,Registered(developmental player ->) (Feb. 28).
-68,2020,Murakami,Kaito,66, 1995,Jul,7,189,95,R,S,
-69,2020,Parra,Gerardo,88, 1987,May,6,180,95,L,L,
-70,2020,Shigenobu,Shinnosuke,43, 1993,Apr,17,173,74,R,L,
-71,2020,Tateoka,Soichiro,39, 1990,May,18,181,82,R,L,
-72,2020,Yamashita,Kota,99, 2000,Nov,15,174,83,R,L,
-73,2020,Yoh,Daikan,2, 1987,Jan,17,184,89,R,R,
+,Year,Name,Last,First,Byear,Bmonth,Bday,Height (cm),Weight (kg),Throws,Bats,Comments
+0,2020,Tatsunori Hara,Hara,Tatsunori, 1958,Jul,22,83,,,,
+1,2020,,PITCHERS,,,Born,,No.,Ht.(cm),Wt.(kg),T,B
+2,2020,Rubby De La Rosa,De La Rosa,Rubby, 1989,Mar,4,12,183,95,R,R
+3,2020,Nattino Diplan,Diplan,Nattino, 1993,Dec,30,96,190,81,R,R
+4,2020,Takahiro Fujioka,Fujioka,Takahiro, 1989,Jul,17,47,182,93,L,L
+5,2020,Yuri Furukawa,Furukawa,Yuri, 1995,Sep,8,40,178,86,R,R
+6,2020,Seishu Hatake,Hatake,Seishu, 1994,May,31,31,186,82,R,L
+7,2020,Hayato Horioka,Horioka,Hayato, 1998,Sep,11,95,183,87,R,R
+8,2020,Kenshin Hotta,Hotta,Kenshin, 2001,May,21,32,185,80,R,R
+9,2020,Shun Ikeda,Ikeda,Shun, 1992,Nov,29,68,174,78,L,L
+10,2020,Nobutaka Imamura,Imamura,Nobutaka, 1994,Mar,15,45,180,88,L,L
+11,2020,Haruto Inoue,Inoue,Haruto, 2001,May,13,91,175,72,L,L
+12,2020,Hisashi Iwakuma,Iwakuma,Hisashi, 1981,Apr,12,21,190,95,R,R
+13,2020,Yohei Kagiya,Kagiya,Yohei, 1990,Sep,23,30,178,86,R,R
+14,2020,Takuya Kuwahara,Kuwahara,Takuya, 1996,Mar,26,46,178,85,R,R
+15,2020,Cristopher Crisostomo Mercedes,Mercedes,Cristopher Crisostomo, 1994,Mar,8,42,188,82,L,S
+16,2020,Ryosuke Miyaguni,Miyaguni,Ryosuke, 1992,Apr,17,58,186,92,R,R
+17,2020,Kota Nakagawa,Nakagawa,Kota, 1994,Feb,24,41,183,86,L,L
+18,2020,Daisuke Naoe,Naoe,Daisuke, 2000,Jun,20,54,184,77,R,R
+19,2020,Ryoma Nogami,Nogami,Ryoma, 1987,Jun,15,23,177,77,R,R
+20,2020,Shohei Numata,Numata,Shohei, 2000,Jun,24,92,175,65,R,R
+21,2020,Ryusei Ohe,Ohe,Ryusei, 1999,Jan,15,64,173,78,L,L
+22,2020,Ryu Ohta,Ohta,Ryu, 1998,Nov,15,33,190,94,R,R
+23,2020,Kan Ohtake,Ohtake,Kan, 1983,May,21,17,184,96,R,R
+24,2020,Toshiki Sakurai,Sakurai,Toshiki, 1993,Oct,21,35,182,89,R,R
+25,2020,Angel Sanchez,Sanchez,Angel, 1989,Nov,28,20,185,88,R,S
+26,2020,Hirokazu Sawamura,Sawamura,Hirokazu, 1988,Apr,3,15,184,102,R,R
+27,2020,Tomoyuki Sugano,Sugano,Tomoyuki, 1989,Oct,11,18,186,92,R,R
+28,2020,Kazuto Taguchi,Taguchi,Kazuto, 1995,Sep,14,28,171,83,L,L
+29,2020,Seiji Tahara,Tahara,Seiji, 1989,Sep,2,63,181,85,R,L
+30,2020,Kyosuke Takagi,Takagi,Kyosuke, 1989,Sep,5,57,183,90,L,L
+31,2020,Yuki Takahashi,Takahashi,Yuki, 1997,Feb,1,26,178,82,L,L
+32,2020,Hosei Takata,Takata,Hosei, 1998,Jul,4,53,178,83,R,R
+33,2020,Shosei Togo,Togo,Shosei, 2000,Apr,4,13,186,75,R,R
+34,2020,Chiaki Tone,Tone,Chiaki, 1992,Oct,17,50,174,100,L,L
+35,2020,Thyago Vieira,Vieira,Thyago, 1993,Jan,7,49,193,113,R,R
+36,2020,Kai Yokogawa,Yokogawa,Kai, 2000,Aug,30,62,190,95,L,L
+37,2020,,CATCHERS,,,Born,,No.,Ht.(cm),Wt.(kg),T,B
+38,2020,Yukinori Kishida,Kishida,Yukinori, 1996,Oct,10,38,176,80,R,R
+39,2020,Seiji Kobayashi,Kobayashi,Seiji, 1989,Jun,7,22,178,86,R,R
+40,2020,Takumi Ohshiro,Ohshiro,Takumi, 1993,Feb,11,24,187,90,R,L
+41,2020,Ginjiro Sumitani,Sumitani,Ginjiro, 1987,Jul,19,27,181,98,R,R
+42,2020,Takaya Tanaka,Tanaka,Takaya, 1992,Aug,27,69,178,85,R,L
+43,2020,Shinnosuke Yamase,Yamase,Shinnosuke, 2001,May,4,67,177,82,R,R
+44,2020,,INFIELDERS,,,Born,,No.,Ht.(cm),Wt.(kg),T,B
+45,2020,Hirokazu Kikuta,Kikuta,Hirokazu, 2001,Jul,23,60,182,94,R,R
+46,2020,Takumi Kitamura,Kitamura,Takumi, 1995,Aug,29,52,181,85,R,R
+47,2020,Daiki Masuda,Masuda,Daiki, 1993,Jul,29,0,172,68,R,R
+48,2020,Riku Masuda,Masuda,Riku, 2000,Jun,17,61,178,85,R,R
+49,2020,Yoshiya Matsui,Matsui,Yoshiya, 2000,Jun,18,65,191,90,R,L
+50,2020,Hiroyuki Nakajima,Nakajima,Hiroyuki, 1982,Jul,31,5,180,90,R,R
+51,2020,Kazuma Okamoto,Okamoto,Kazuma, 1996,Jun,30,25,185,96,R,R
+52,2020,Hayato Sakamoto,Sakamoto,Hayato, 1988,Dec,14,6,186,85,R,R
+53,2020,Shunta Tanaka,Tanaka,Shunta, 1993,Aug,18,51,178,82,R,L
+54,2020,Akihiro Wakabayashi,Wakabayashi,Akihiro, 1993,Aug,26,37,180,77,R,S
+55,2020,Zelous Wheeler,Wheeler,Zelous, 1987,Jan,16,48,178,100,R,R
+56,2020,Yasuhiro Yamamoto,Yamamoto,Yasuhiro, 1993,Oct,10,56,176,76,R,R
+57,2020,Daiki Yoshikawa,Yoshikawa,Daiki, 1992,Aug,21,00,175,78,R,R
+58,2020,Naoki Yoshikawa,Yoshikawa,Naoki, 1995,Feb,8,29,177,78,R,L
+59,2020,Dai Yuasa,Yuasa,Dai, 2000,Jan,24,93,172,70,R,R
+60,2020,,OUTFIELDERS,,,Born,,No.,Ht.(cm),Wt.(kg),T,B
+61,2020,Shingo Ishikawa,Ishikawa,Shingo, 1993,Apr,27,36,178,80,R,R
+62,2020,Kaito Itoh,Itoh,Kaito, 2001,Apr,2,97,187,88,L,L
+63,2020,Yoshiyuki Kamei,Kamei,Yoshiyuki, 1982,Jul,28,9,178,82,R,L
+64,2020,Shuhei Katoh,Katoh,Shuhei, 1999,Mar,28,94,178,79,R,L
+65,2020,Yoshihiro Maru,Maru,Yoshihiro, 1989,Apr,11,8,177,94,R,L
+66,2020,Seiya Matsubara,Matsubara,Seiya, 1995,Jan,26,59,173,72,R,L
+67,2020,Israel Mota,Mota,Israel, 1996,Jan,3,44,188,98,R,R
+68,2020,Kaito Murakami,Murakami,Kaito, 1995,Jul,7,66,189,95,R,S
+69,2020,Gerardo Parra,Parra,Gerardo, 1987,May,6,88,180,95,L,L
+70,2020,Shinnosuke Shigenobu,Shigenobu,Shinnosuke, 1993,Apr,17,43,173,74,R,L
+71,2020,Soichiro Tateoka,Tateoka,Soichiro, 1990,May,18,39,181,82,R,L
+72,2020,Kota Yamashita,Yamashita,Kota, 2000,Nov,15,99,174,83,R,L
+73,2020,Daikan Yoh,Yoh,Daikan, 1987,Jan,17,2,184,89,R,R
