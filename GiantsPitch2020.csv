@@ -1,18 +1,19 @@
 ,Year,Name,Last,First,Hand,IP,G,W,L,SV,HLD,CG,SHO,PCT,BF,H,HR,BB,IBB,HB,SO,WP,BK,R,ER,ERA
 0,2020,Rubby De La Rosa,De La Rosa,Rubby,R,5.0,6,0,0,4,1,0,0,0.0,20,5,1,1,0,1,3,1,0,1,1,1.8
-1,2020,Takahiro Fujioka,Fujioka,Takahiro,L,6.3333,8,0,0,0,0,0,0,0.0,29,6,1,4,1,1,4,1,0,2,2,2.84
+1,2020,Takahiro Fujioka,Fujioka,Takahiro,L,7.3333,9,0,0,0,0,0,0,0.0,32,6,1,4,1,1,5,1,0,2,2,2.45
 2,2020,Yuri Furukawa,Furukawa,Yuri,R,2.0,1,0,0,0,0,0,0,0.0,9,4,1,0,0,0,2,0,0,1,1,4.5
 3,2020,Hayato Horioka,Horioka,Hayato,R,2.0,1,0,0,0,0,0,0,0.0,6,1,0,0,0,0,2,0,0,0,0,0.0
-4,2020,Yohei Kagiya,Kagiya,Yohei,R,5.3333,8,0,0,0,3,0,0,0.0,21,4,0,2,0,0,5,0,0,4,4,6.75
+4,2020,Yohei Kagiya,Kagiya,Yohei,R,7.3333,10,0,0,0,4,0,0,0.0,29,6,1,2,0,0,6,0,0,5,5,6.14
 5,2020,Takuya Kuwahara,Kuwahara,Takuya,R,7.0,5,1,0,0,0,0,0,1.0,32,6,0,5,0,1,6,0,0,5,5,6.43
-6,2020,Cristopher Crisostomo Mercedes,Mercedes,Cristopher Crisostomo,L,15.3333,3,0,2,0,0,0,0,0.0,66,17,4,3,1,1,13,0,0,7,7,4.11
-7,2020,Ryosuke Miyaguni,Miyaguni,Ryosuke,R,7.6666,7,0,0,0,0,0,0,0.0,32,7,1,2,0,0,6,0,0,4,4,4.7
+6,2020,Cristopher Crisostomo Mercedes,Mercedes,Cristopher Crisostomo,L,21.3333,4,1,2,0,0,0,0,0.33299999999999996,92,23,5,6,1,1,19,0,0,9,9,3.8
+7,2020,Ryosuke Miyaguni,Miyaguni,Ryosuke,R,8.6666,8,0,0,0,0,0,0,0.0,36,9,1,2,0,0,6,0,0,4,4,4.15
 8,2020,Kota Nakagawa,Nakagawa,Kota,L,8.0,8,0,0,0,4,0,0,0.0,32,6,0,2,0,0,5,0,0,1,1,1.13
-9,2020,Toshiki Sakurai,Sakurai,Toshiki,R,18.6666,3,1,1,0,0,0,0,0.5,74,13,3,5,0,1,17,0,0,6,6,2.89
-10,2020,Angel Sanchez,Sanchez,Angel,R,19.0,4,2,2,0,0,0,0,0.5,84,17,2,11,0,0,12,0,0,8,7,3.32
-11,2020,Hirokazu Sawamura,Sawamura,Hirokazu,R,7.0,9,1,1,0,1,0,0,0.5,33,5,0,6,0,1,7,0,0,5,5,6.43
-12,2020,Tomoyuki Sugano,Sugano,Tomoyuki,R,21.6666,3,2,0,0,0,1,1,1.0,83,14,2,4,0,1,23,0,0,7,7,2.91
-13,2020,Kazuto Taguchi,Taguchi,Kazuto,L,13.0,3,1,0,0,0,0,0,1.0,52,11,1,3,0,0,9,1,0,3,3,2.08
-14,2020,Kyosuke Takagi,Takagi,Kyosuke,L,7.6666,12,0,1,0,3,0,0,0.0,30,7,1,0,0,0,10,0,0,4,4,4.7
-15,2020,Shosei Togo,Togo,Shosei,R,13.0,2,2,0,0,0,0,0,1.0,50,8,1,5,0,0,11,1,0,4,4,2.77
-16,2020,Thyago Vieira,Vieira,Thyago,R,2.3333,3,0,0,0,1,0,0,0.0,14,5,0,3,0,1,1,0,0,1,1,3.86
+9,2020,Kan Ohtake,Ohtake,Kan,R,2.3333,2,0,0,0,0,0,0,0.0,11,3,0,2,0,0,1,0,0,2,2,7.71
+10,2020,Toshiki Sakurai,Sakurai,Toshiki,R,18.6666,3,1,1,0,0,0,0,0.5,74,13,3,5,0,1,17,0,0,6,6,2.89
+11,2020,Angel Sanchez,Sanchez,Angel,R,19.0,4,2,2,0,0,0,0,0.5,84,17,2,11,0,0,12,0,0,8,7,3.32
+12,2020,Hirokazu Sawamura,Sawamura,Hirokazu,R,8.0,10,1,1,0,1,0,0,0.5,38,7,0,6,0,1,7,0,0,6,6,6.75
+13,2020,Tomoyuki Sugano,Sugano,Tomoyuki,R,26.6666,4,3,0,0,0,1,1,1.0,104,18,2,6,0,1,28,0,0,7,7,2.36
+14,2020,Kazuto Taguchi,Taguchi,Kazuto,L,13.0,3,1,0,0,0,0,0,1.0,52,11,1,3,0,0,9,1,0,3,3,2.08
+15,2020,Kyosuke Takagi,Takagi,Kyosuke,L,8.3333,13,0,1,0,3,0,0,0.0,34,8,1,1,0,0,11,1,0,4,4,4.32
+16,2020,Shosei Togo,Togo,Shosei,R,19.0,3,3,0,0,0,0,0,1.0,72,10,1,8,0,0,15,1,0,4,4,1.89
+17,2020,Thyago Vieira,Vieira,Thyago,R,4.3333,4,0,0,0,1,0,0,0.0,24,9,1,3,0,1,4,0,0,2,2,4.15
