@@ -1,12 +1,14 @@
 pipeline{
-agent any
-        stages{
-          stage('LetsGo'){
-          sh '''
-ls 
-echo 'Hello Jenkins'
-echo $Path
-'''
+        agent any
+                stages{
+                        stage('LetsGo'){
+                        steps {
+                                sh '''
+                                ls 
+                                echo 'Hello Jenkins'
+                                echo $Path
+                                '''
+}
 }
 }
 }
