@@ -3,19 +3,24 @@
 import requests
 import pandas
 import numpy as np
-import github
+import lxml
+# import github
 #import gitpython
-import git
+# import git
 # The OS module in python provides functions for interacting with the operating system. .
 import os
 
 
 
 # Get data
-# Source: http://npb.jp/bis/eng/2019/stats/idb1_g.html
-Year = "2020"
-CSVfile = "GiantsPitch"+Year+".csv"
+# Source: 
+# Bat http://npb.jp/bis/eng/2019/stats/idb1_g.html
+# Pitch https://npb.jp/bis/eng/2019/stats/idp1_g.html
+Year = "2024"
+CSVfile = "Output\GiantsPitch"+Year+".csv"
+# r = requests.get("http://npb.jp/bis/eng/"+Year+"/stats/idb1_g.html")
 r = requests.get("http://npb.jp/bis/eng/"+Year+"/stats/idp1_g.html")
+
 
 # Clean data
 #DF = data frame (PANDAS)
@@ -31,6 +36,8 @@ df.rename(columns={ df.columns[0]: "Hand" }, inplace = True)
 # Rename the unamed column
 df.rename(columns={ df.columns[12]: "PartIn" }, inplace = True)
 
+df.head
+
 # Manipulate data
 # Replace the weird values with better stuff
 df["Hand"] = df["Hand"].replace("*", "L")
@@ -43,16 +50,15 @@ df.insert(1,'First',np.nan)
 df.insert(0,'Year',Year)
 df.insert(4,'In',np.nan)
 
+
 df[['Last','First']] = df.Pitcher.str.split(",",expand=True)
-#del df['Pitcher']
-df.rename(columns={ df.columns[5]: 'Name' }, inplace = True)
-df['Name'] =df['First'] + " " + df ['Last']
-Newcolumn="Name"
-Newcolumn2= df.pop(Newcolumn)
-df.insert(1, Newcolumn ,Newcolumn2)
+del df['Pitcher']
+
+#df[['Last','First']] = df.Player.str.split(",",expand=True)
+#del df['Player']
 
 df["First"] = df["First"].str.strip()
-df["Name"] = df["Name"].str.strip()
+
 # Change part in calc
 df["PartIn"] = df["PartIn"] * 0.3333 * 10
 
@@ -69,26 +75,41 @@ df["In"] = df["IP"] + df["PartIn"]
 del df['IP']
 del df['PartIn']
 # Rename the unamed column
-df.rename(columns={ df.columns[5]: "IP" }, inplace = True)
+df.rename(columns={ df.columns[4]: "IP" }, inplace = True)
 
 # Export data
 # https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 df.to_csv(path_or_buf=CSVfile)
-print("CSV Created")
+
 ##################################################################
 
 
-from git import Repo
 
-repo_dir = 'C:/Users/Anzo'
-repo = Repo(repo_dir)
-file_list = CSVfile
+# from git import Repo
 
-commit_message = 'NPB Website'
-repo.index.add(file_list)
-repo.index.commit(commit_message)
-origin = repo.remote('origin')
-origin.push()
+# repo_dir = 'C:/Users/Anzo'
+# repo = Repo(repo_dir)
+# file_list = CSVfile
+
+# commit_message = 'Lets get this shit working'
+# repo.index.add(file_list)
+# repo.index.commit(commit_message)
+# origin = repo.remote('origin')
+# origin.push()
 
 
-print("CSV Pushed to Github")
+
+#repo_dir = os.path.join('C:/users/anzo/AnzoGiantsPitchtest.csv')
+#file_name = os.path.join(repo_dir, 'new-file')
+
+#r = git.Repo.init(repo_dir)
+# This function just creates an empty file ...
+#open(file_name, 'wb').close()
+#r.index.add([file_name])
+#r.index.commit("initial commit")
+
+
+
+
+
+print("Complete")

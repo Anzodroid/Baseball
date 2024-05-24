@@ -3,12 +3,10 @@
 import requests
 import pandas
 import numpy as np
-import github
-#import gitpython
-import git
+
 Year = "2020"
 #Git Repo directory
-repo_dir = 'C:/Users/Anzo'
+repo_dir = 'C:/Users/Anzo/anzodockerbuild'
 ##########################################################
 
 
@@ -266,32 +264,5 @@ df4.to_csv(path_or_buf=CSV_Bat)
 df5Roster.to_csv(path_or_buf=CSV_Roster)
 print("CSV Created")
 
-######################################################
-#Push CSVs to GIT
-
-#Push to Git
-from git import Repo
-
-#repo_dir = 'C:/Users/Anzo'
-repo = Repo(repo_dir)
-
-
-commit_message = 'Baseball-Reference.com & NPB'
-
-#############################
-# ADD CSV FILES TO GIT
-repo.index.add(CSV_Roster)
-repo.index.add(CSV_Bat)
-repo.index.add(CSV_Pitch)
-repo.index.add(CSV_BR_Field)
-repo.index.add(CSV_BR_Bat)
-repo.index.add(CSV_BR_Pitch)
-repo.index.add(CSV_BR_Central)
-#############################
-repo.index.commit(commit_message)
-origin = repo.remote('origin')
-origin.push()
-
-print("CSV Pushed to Github")
 
 
