@@ -3,6 +3,7 @@
 import requests
 import pandas
 import numpy as np
+from io import StringIO
 
 Year = "2024"
 #Git Repo directory
@@ -25,7 +26,11 @@ r_Roster = requests.get("https://npb.jp/bis/eng/teams/rst_g.html")
 r_Bat = requests.get("http://npb.jp/bis/eng/"+Year+"/stats/idb1_g.html")
 r_Pitch = requests.get("http://npb.jp/bis/eng/"+Year+"/stats/idp1_g.html")
 r_BR_Giants = requests.get("https://www.baseball-reference.com/register/team.cgi?id=e1b4d4c9")
-r_BR_Central = requests.get("https://www.baseball-reference.com/register/league.cgi?id=4b244907")
+# Note : Baseball Register URLs need to be updated each year. 
+r_BR_Central = requests.get("https://www.baseball-reference.com/register/league.cgi?id=e62e602d")
+r_BR_Giants = requests.get("https://www.baseball-reference.com/register/team.cgi?id=e1b4d4c9")
+
+# 2024 https://www.baseball-reference.com/register/league.cgi?id=e62e602d
 
 ########################################################
 #Clean weird formatting in BR
@@ -94,8 +99,8 @@ Pitch["Name"] = Pitch["Name"].str.strip("*")
 ####################################################################
 
 # CENTRAL BR DATA
-dfs2 = pandas.read_html(string2)
-Standings = dfs[0]
+dfs2 = pandas.read_html(StringIO(string2))
+Standings = dfs2[0]
 Standings.rename(columns={ Standings.columns[0]: "Team" }, inplace = True)
 Standings.rename(columns={ Standings.columns[4]: "PCT" }, inplace = True)
 

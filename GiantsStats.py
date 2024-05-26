@@ -6,21 +6,21 @@ import numpy as np
 import github
 #import gitpython
 import git
-Year = "2020"
+Year = "2024"
 #Git Repo directory
-repo_dir = 'C:/Users/Anzo'
+repo_dir = 'F:/Python/Baseball'
 ##########################################################
 
 
 #Japanese Source CSV
-CSV_Roster = "GiantRoster"+Year+".csv"
-CSV_Bat = "GiantsBat"+Year+".csv"
-CSV_Pitch = "GiantsPitch"+Year+".csv"
+CSV_Roster = "Output\GiantRoster"+Year+".csv"
+CSV_Bat = "Output\GiantsBat"+Year+".csv"
+CSV_Pitch = "Output\GiantsPitch"+Year+".csv"
 #Baseball Reference CSV
-CSV_BR_Field = "GiantsField"+Year+".csv"
-CSV_BR_Bat = "GiantsB"+Year+".csv"
-CSV_BR_Pitch = "GiantsP"+Year+".csv"
-CSV_BR_Central = "CentralLeague"+Year+".csv"
+CSV_BR_Field = "Output\GiantsField"+Year+".csv"
+CSV_BR_Bat = "Output\GiantsB"+Year+".csv"
+CSV_BR_Pitch = "Output\GiantsP"+Year+".csv"
+CSV_BR_Central = "Output\CentralLeague"+Year+".csv"
 
 #Data Source (Web)
 r_Roster = requests.get("https://npb.jp/bis/eng/teams/rst_g.html")
